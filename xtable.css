@@ -1,0 +1,14 @@
+.xtable {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.xtable > thead > tr > th,
+.xtable > tbody > tr > td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.xtable > thead > tr > th {
+    border-bottom-width: 2px;
+}
